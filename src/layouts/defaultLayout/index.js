@@ -5,7 +5,7 @@ import { Heading, Content } from '../components';
 const cx = classNames.bind(styles);
 
 function DefaultLayout() {
-    return <div>
+    return <div className={cx('wrapper')}>
         <Heading />
         <Content />
     </div>;

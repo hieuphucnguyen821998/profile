@@ -1,0 +1,50 @@
+.wrapper {
+    .contact-background {
+        background-image: url('https://images.unsplash.com/photo-1497515114629-f71d768fd07c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2084&q=80');
+        min-width: 100%;
+        height: 300px;
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .contact-text {
+        width: 20%;
+        height: 14%;
+        padding: 8px;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        letter-spacing: 3px;
+        color: var(--white);
+        text-align: center;
+    }
+    .contact {
+        .contact-header {
+            text-align: center;
+        }
+        .contact-body {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            .contact-map {
+                iframe {
+                    width: 130px;
+                    height: 150px;
+                }
+            }
+            .contact-information {
+                margin-left: 20px;
+                h3 {
+                    font-weight: normal;
+                    font-style: normal;
+                    font-size: 18px !important;
+                }
+            }
+        }
+    }
+}

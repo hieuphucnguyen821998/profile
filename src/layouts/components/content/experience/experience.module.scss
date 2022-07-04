@@ -1,0 +1,13 @@
+.wrapper {
+    color: var(--white);
+    background-color: #616161 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    .experience {
+        width: 25%;
+        text-align: center;
+        margin: 0 10px;
+    }
+}

@@ -1,0 +1,41 @@
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 64px 16px;
+    .intro {
+        text-align: center;
+    }
+    .body {
+        text-align: justify;
+        .second-body {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            .first-col {
+                width: 50%;
+                padding: 10px;
+                h4 {
+                    text-align: center;
+                    font-weight: normal;
+                    font-style: normal;
+                }
+                img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 5px;
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+                .user-icon {
+                    margin-right: 8px;
+                }
+            }
+            .second-col {
+                width: 50%;
+                padding: 10px;
+            }
+        }
+    }
+}
