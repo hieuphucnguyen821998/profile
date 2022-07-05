@@ -2,6 +2,7 @@ import styles from './about.module.scss';
 import classNames from 'classnames/bind';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faSuitcase, faBottleWater } from '@fortawesome/free-solid-svg-icons';
+import myPicture from '../../../../assets/images/coffee.jpg'
 
 const cx = classNames.bind(styles);
 function About() {
@@ -26,7 +27,7 @@ function About() {
                         </h4>
                         <br />
                         <img
-                            src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2084&q=80"
+                            src={myPicture}
                             alt=""
                         />
                     </div>
