@@ -26,7 +26,7 @@ function Heading() {
                     {menuItems.map((item, index) => {
                         return (
                             <a href={`#${item.destination}`} className={cx('menu-button')} key={index}>
-                                <FontAwesomeIcon icon={item.icon} /> {item.name}
+                                <FontAwesomeIcon icon={item.icon}/> {item.name}
                             </a>
                         );
                     })}
