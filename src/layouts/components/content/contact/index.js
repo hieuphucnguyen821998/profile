@@ -7,7 +7,7 @@ const cx = classNames.bind(styles);
 
 function Contact() {
     return (
-        <div className={cx('wrapper')}>
+        <div className={cx('wrapper')} id="Contact">
             <div className={cx('contact-background')}>
                 <div className={cx('contact-text')}>
                     <h2>MY CONTACT</h2>
@@ -16,7 +16,7 @@ function Contact() {
             <br />
             <div className={cx('contact')}>
                 <div className={cx('contact-header')}>
-                    <h3>Information</h3>
+                    <h3><em>Information</em></h3>
                 </div>
                 <br />
                 <div className={cx('contact-body')}>

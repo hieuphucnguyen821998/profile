@@ -20,12 +20,12 @@ function Heading() {
     };
 
     return (
-        <header className={cx('header')}>
+        <header className={cx('header')} id="Home">
             <div className={cx({menu: menuChange, menuScroll: !menuChange})}>
                 <div className={cx('submenu-left')}>
                     {menuItems.map((item, index) => {
                         return (
-                            <a href="#" className={cx('menu-button')} key={index}>
+                            <a href={`#${item.destination}`} className={cx('menu-button')} key={index}>
                                 <FontAwesomeIcon icon={item.icon} /> {item.name}
                             </a>
                         );

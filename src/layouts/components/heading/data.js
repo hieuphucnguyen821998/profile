@@ -1,9 +1,9 @@
 import { faUserCircle, faEnvelope, faHome } from '@fortawesome/free-solid-svg-icons';
 
 const menuItems = [
-    {name: 'HOME', icon: faHome},
-    {name: 'About', icon: faUserCircle},
-    {name: 'Contact', icon: faEnvelope}
+    {name: 'Home', icon: faHome, destination: 'Home'},
+    {name: 'About', icon: faUserCircle, destination: 'About'},
+    {name: 'Contact', icon: faEnvelope, destination: 'Contact'},
 ];
 
 export default menuItems;
